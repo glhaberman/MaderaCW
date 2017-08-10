@@ -42,7 +42,7 @@ Response.ExpiresAbsolute = Now - 365
 gblnUseLogon = True
 
 'Database Connection Settings:
-strServer = "rgbdc\sql2014"
+strServer = "2G2M362GH\SQL2014"
 strDb = "MaderaCW"
 
 'If the SQL user ID and password variables are left blank, the connection will
@@ -50,7 +50,7 @@ strDb = "MaderaCW"
 'password are supplied, SQL authentication will be attempted.:
 If gblnUseLogon Then
     strSqlUser = "sa"
-    strSqlPW = "trg123!"
+    strSqlPW = "TRG123!"
 Else
     strSqlUser = ""
     strSqlPW = ""
